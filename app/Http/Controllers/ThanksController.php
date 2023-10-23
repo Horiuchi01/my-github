@@ -34,4 +34,3 @@ class ThanksController extends Controller
         return view('thanks.thanks', compact('itemNames', 'itemPrices', 'totalPrice'));
     }
 }
-//テスト
