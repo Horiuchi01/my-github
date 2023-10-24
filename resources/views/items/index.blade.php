@@ -52,7 +52,7 @@
         <form action="{{ route('items.delete', ['itemId' => $dbitem->id]) }}" method="post">
             @method("DELETE")
             @csrf
-            <button class="btn" type="submit">削除</button>
+            <input class="btn" type="submit" value="削除する">
         </form>
     @endforeach
 </div>
