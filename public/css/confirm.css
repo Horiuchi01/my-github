@@ -1,0 +1,11 @@
+.order {
+    padding: 10px 0;
+    margin-top: 30px; /* 上部に余白を設定 */
+}
+
+.item-list {
+    line-height: 1.5; /* 行の高さを設定 */
+    font-size: 20px; /* フォントサイズを設定 */
+    margin-top: 15px; /* 上部に余白を設定 */
+    color: black; /* テキストカラーを設定 */
+}
