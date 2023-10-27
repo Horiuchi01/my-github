@@ -1,0 +1,58 @@
+/* 商品アイテムのスタイル設定 */
+.item {
+    width: 40%; /* アイテムの幅を40%に設定 */
+    padding: 20px; /* 内側のパディングを設定 */
+    margin-top: 40px; /* 上部に余白を設定 */
+    float: left; /* 左に浮動させる */
+}
+
+/* 商品アイテム内のスパン要素にスタイルを適用 */
+.item span {
+    color: black; /* テキストカラーを黒に設定 */
+    font-size: 20px; /* スパン要素内の文字サイズを設定 */
+}
+
+/* 商品名のスタイル設定 */
+.item-name {
+    line-height: 1.5; /* 行の高さを設定 */
+    font-size: 40px; /* フォントサイズを設定 */
+    margin-top: 15px; /* 上部に余白を設定 */
+    color: #4ac0b9; /* テキストカラーを設定 */
+    border-top: 3px solid blue; /* 上部のボーダーを青で設定 */
+    border-bottom: 3px solid blue; /* 下部のボーダーを青で設定 */
+}
+
+/* 商品イメージのスタイル設定 */
+.item-image {
+    width: 240px; /* 通常の幅 */
+    height: 360px; /* 通常の高さ */
+    cursor: zoom-in; /* カーソルをズームイン用に変更します。 */
+}
+
+/* 商品価格のスタイル設定 */
+.item-price {
+    margin: 15px 0; /* 上下の余白を設定 */
+    font-size: 40px; /* フォントサイズを設定 */
+    color: #322f33; /* テキストカラーを設定 */
+}
+
+/* 商品タイプのスタイル設定 */
+.item-type {
+    margin: 15px 0; /* 上下の余白を設定 */
+    font-size: 40px; /* フォントサイズを設定 */
+    color: #322f33; /* テキストカラーを設定 */
+}
+
+.quantity {
+    display: inline-block; /* インラインブロック要素として表示 */
+    width: 100px; /* 幅を指定 */
+    height: 80px; /* 高さを指定 */
+    line-height: 80px; /* 行の高さを設定 */
+    padding: 0 20px; /* 内側のパディングを設定 */
+    border-radius: 30px; /* 角丸を設定 */
+    border-style: none; /* ボーダーをなしに設定 */
+    color: white; /* テキストカラーを白に設定 */
+    background-color: #42c7c1; /* 背景色を設定 */
+    font-size: 20px; /* フォントサイズを設定 */
+    letter-spacing: 0.1em; /* 文字間隔を微調整 */
+}

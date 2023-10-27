@@ -1,0 +1,59 @@
+/* すべての要素にボックスサイズを適用 */
+* {
+    box-sizing: border-box;
+}
+
+/* ページ全体のフォントファミリーとスタイル設定 */
+body {
+    font-family: Lato, 'Hiragino Kaku Gothic Pro', sans-serif; /* フォントファミリーを指定 */
+    font-weight: 400; /* フォントのウェイトを設定 */
+    -webkit-font-smoothing: antialiased; /* Webkitベンダープレフィックスを使用してフォントを滑らかに表示 */
+    font-size: 14px; /* フォントサイズを設定 */
+    letter-spacing: 0.05em; /* 文字間隔を微調整 */
+    color: #89949e; /* テキストカラーを設定 */
+}
+
+/* ロゴのスタイル設定 */
+h2, h3, p {
+    font-size: 30px; /* フォントサイズを設定 */
+    padding: 10px 10px; /* 上下のパディングを10px、左右のパディングを10pxに設定 */
+    margin: 10px auto; /* 左右のマージンをautoに設定して中央揃え */
+}
+
+h2 {
+    color: red; /* ロゴの文字色を緑黄色に設定 */
+}
+
+h3 {
+    color: red; /* ロゴの文字色を緑黄色に設定 */
+}
+
+p {
+    color: blue; /* ロゴの文字色を緑黄色に設定 */
+}
+
+/* ロゴのスタイル設定 */
+.logo {
+    font-size: 100px; /* フォントサイズを設定 */
+    color: greenyellow; /* ロゴの文字色を緑黄色に設定 */
+    padding: 10px 100px; /* 上下のパディングを10px、左右のパディングを100pxに設定 */
+    margin: 10px auto; /* 左右のマージンをautoに設定して中央揃え */
+    border-top: 5px solid green; /* 上部のボーダーを緑色で設定 */
+    border-bottom: 5px solid green; /* 下部のボーダーを緑色で設定 */
+    text-align: center; /* ロゴのテキストを中央揃え */
+}
+
+/* 送信ボタンのスタイル設定 */
+.btn {
+    display: inline-block; /* インラインブロック要素として表示 */
+    width: 160px; /* 幅を指定 */
+    height: 48px; /* 高さを指定 */
+    line-height: 48px; /* 行の高さを設定 */
+    padding: 0 20px; /* 内側のパディングを設定 */
+    border-radius: 30px; /* 角丸を設定 */
+    border-style: none; /* ボーダーをなしに設定 */
+    color: white; /* テキストカラーを白に設定 */
+    background-color: #42c7c1; /* 背景色を設定 */
+    font-size: 15px; /* フォントサイズを設定 */
+    letter-spacing: 0.1em; /* 文字間隔を微調整 */
+}
